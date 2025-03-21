@@ -11,8 +11,6 @@ public class ReservationDto {
     private MemberDto memberDto;
     private LocalDateTime pickupDate;
     private LocalDateTime returnDate;
-    private LocalDateTime acceptDate;
+    private LocalDateTime actualReturnDate;
     private String status;
-
-
 }
